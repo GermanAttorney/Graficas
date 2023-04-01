@@ -25,8 +25,7 @@ def pie_graf(labels,y):
 
 if __name__ == '__main__':
 	data = read_dat('world_population.csv')
-	A=True
-	while A:
+	while True:
 		a=int(input("Posicion [0,234] => "))#227 [0-234]
 		if a>234 or a<0:
 			print("Posicion invalida")
